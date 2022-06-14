@@ -1,14 +1,12 @@
 {
-  "name": "tatumdemo",
+  "name": "tatum",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@tatumio/tatum": "^1.35.6"
-  }
+  "license": "ISC"
 }
