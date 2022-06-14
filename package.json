@@ -1,0 +1,14 @@
+{
+  "name": "tatumdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tatumio/tatum": "^1.35.6"
+  }
+}
